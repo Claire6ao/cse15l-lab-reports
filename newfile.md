@@ -1,23 +1,27 @@
 Claire Gao
 	<h1>Lab Report 1</h1>
-1. cd
-   ![Image](cd.jpg)
-What the absolute path to the working directory was right before the command was run.
-A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
-Indicate explicitly whether the output is an error or not, and if it's an error, explain why it's an error in one or two sentences. Note: Make sure to use backticks ` around keywords such as commands, file names, paths, etc. to make them show up as code like cd.
+<h3>1. cd</h3>
 
-1.1 cd without argument:
-the absolute path to the working directory was /Users/clairegao
+![Image](cd.jpg)
+
+<h4>1.1 cd without argument:</h4>
+the absolute path to the working directory was `/Users/clairegao` 
 there is no output. That's because `cd` is to change directory to the command after and if we put nothing after cd, the directory would not be changed. 
 This output is not an error.
 
-1.2 cd with a path to directory:
+<h4>1.2 cd with a path to directory:</h4>
 the absolute path to the working directory was `/Users/clairegao`
-there is no output. However, the directory is now changed to `/Users/clairegao/Downloards`
+there is no output. However, the directory is now changed to `/Users/clairegao/Downloads`
+there is no error.
 
-
+<h4>1.3 cd with a path to file:</h4>
+the the absolute path to the working directory was `/Users/clairegao/Downloads`
+there is an error. That's because 'cd' is to change directory, and if we provide the path to a file, which is not a directory, it will cause an error. 
    
-3. ls
+<h3>2. ls</h3>
+   
    ![Image](ls.jpg)
-4. cat
+
+<h3>3. cat</h3>
+
    ![Image](cat.jpg)
