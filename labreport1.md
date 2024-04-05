@@ -6,7 +6,7 @@ Claire Gao
 
 <h4>1.1 <code>cd</code> without argument:</h4>
 the absolute path to the working directory right before was <code>/Users/clairegao</code>.<br>
-There is no output. That's because <code>cd</code> without argument willl change directory back to home directory which is <code>/Users/clairegao</code>. <br>
+There is no output. That's because <code>cd</code> without argument will change directory back to home directory which is <code>/Users/clairegao</code>. <br>
 This output is not an error.
 
 <h4>1.2 <code>cd</code> with a path to directory:</h4>
