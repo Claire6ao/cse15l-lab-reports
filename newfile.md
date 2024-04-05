@@ -34,8 +34,8 @@ there is no error.
 
 <h4>2.3 <code>ls</code> with a path to file:</h4>
 the absolute path to the working directory right before was <code>/Users/clairegao</code>. <br>
-When we provide a path to a file. <code>ls</code> will display the path to the specific file. <br>
-there is no error
+When we provide a path to a file, <code>ls</code> will display the path to the specific file. <br>
+There is no error.
 
 
 <h3>3. <code>cat</code> </h3>
@@ -49,10 +49,10 @@ This will not cause an error although the terminal will wait for input.
 
 <h4>3.2 <code>cat</code>  with a path to directory:</h4>
 the absolute path to the working directory right before was <code>/Users/clairegao</code>. <br>
-Since the command after <code>ls</code> is <code>/Users/clairegao/Downloards</code>. the output lists all the files under the directory is <code>/Users/clairegao/Downloards</code>. <br>
-there is no error.
+The output saying that the commands followed  <code>cat</code> is an directory. <br>
+Since <code>cat</code> is to concatenate files, there would be an error if commands is a path to directory.
 
 <h4>3.3 <code>cat</code>  with a path to file:</h4>
 the absolute path to the working directory right before was <code>/Users/clairegao</code>. <br>
-When we provide a path to a file. <code>ls</code> will display the path to the specific file. <br>
-there is no error
+The output is the file content. That's because when we provide a path to a file, <code>cat</code> will the content of the specific file. <br>
+There is no error
