@@ -4,37 +4,37 @@ Claire Gao <br>
 
 ![Image](cd.jpg)
 
-<h4>1.1 `cd` without argument:</h4>
+<h4>1.1 <code>cd</code> without argument:</h4>
 the absolute path to the working directory right before was `/Users/clairegao`.<br>
 There is no output. That's because `cd` without argument will change directory back to home directory which is `/Users/clairegao`. <br>
 This output is not an error.
 
-<h4>1.2 `cd` with a path to directory:</h4>
+<h4>1.2 <code>cd</code> with a path to directory:</h4>
 the absolute path to the working directory right before was `/Users/clairegao`.<br>
-there is no output. However, the directory is now changed to <code>/Users/clairegao/Downloads</code>.<br>
+there is no output. However, the directory is now changed to `/Users/clairegao/Downloads`.<br>
 there is no error.
 
 <h4>1.3 <code>cd</code> with a path to file:</h4>
-the the absolute path to the working directory right before was <code>/Users/clairegao/Downloads</code>.
-there is an error. That's because <code>cd</code>  is to change directory, and if we provide the path to a file, which is not a directory, it will cause an error. 
+the the absolute path to the working directory right before was `/Users/clairegao/Downloads`.
+there is an error. That's because `cd`  is to change directory, and if we provide the path to a file, which is not a directory, it will cause an error. 
    
 <h3>2. <code>ls</code></h3>
    
    ![Image](ls.jpg)
 
 <h4>2.1 <code>ls</code> without argument:</h4>
-the absolute path to the working directory right before was <code>/Users/clairegao</code>.<br>
+the absolute path to the working directory right before was `/Users/clairegao`.<br>
 the output is all the files and directories under a the currect directory.<br>
 This output is not an error.
 
 <h4>2.2 <code>ls</code> with a path to directory:</h4>
-the absolute path to the working directory right before was <code>/Users/clairegao</code>. <br>
-Since the command after <code>ls</code> is <code>/Users/clairegao/Downloards</code>. the output lists all the files under the directory is <code>/Users/clairegao/Downloards</code>. <br>
+the absolute path to the working directory right before was `/Users/clairegao`. <br>
+Since the command after `ls` is `/Users/clairegao/Downloards`. the output lists all the files under the directory is `/Users/clairegao/Downloards`. <br>
 there is no error.
 
 <h4>2.3 <code>ls</code> with a path to file:</h4>
 the absolute path to the working directory right before was <code>/Users/clairegao</code>. <br>
-When we provide a path to a file, <code>ls</code> will display the path to the specific file. <br>
+When we provide a path to a file, `ls` will display the path to the specific file. <br>
 There is no error.
 
 
