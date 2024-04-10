@@ -5,7 +5,7 @@ Claire Gao
 ![Image](cd.jpg)
 
 <h4>1.1 <code>cd</code> without argument:</h4>
-the absolute path to the working directory right before was <code>/Users/clairegao</code>.<br>
+the absolute path to the working directory right before was `/Users/clairegao`.<br>
 There is no output. That's because <code>cd</code> without argument will change directory back to home directory which is <code>/Users/clairegao</code>. <br>
 This output is not an error.
 
