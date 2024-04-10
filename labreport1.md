@@ -1,6 +1,6 @@
 Claire Gao <br>
 <h1> Lab Report 1 </h1>
-<h3>1. `cd` </h3>
+<h3>1. <code>cd</code> </h3>
 
 ![Image](cd.jpg)
 
