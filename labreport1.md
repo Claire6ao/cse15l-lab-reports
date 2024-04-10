@@ -1,16 +1,16 @@
 Claire Gao
-	<h1>Lab Report 1</h1>
-<h3>1. <code>cd</code> </h3>
+<h1> Lab Report 1 </h1>
+<h3>1. `cd` </h3>
 
 ![Image](cd.jpg)
 
-<h4>1.1 <code>cd</code> without argument:</h4>
+<h4>1.1 `cd` without argument:</h4>
 the absolute path to the working directory right before was `/Users/clairegao`.<br>
-There is no output. That's because <code>cd</code> without argument will change directory back to home directory which is <code>/Users/clairegao</code>. <br>
+There is no output. That's because `cd` without argument will change directory back to home directory which is `/Users/clairegao`. <br>
 This output is not an error.
 
-<h4>1.2 <code>cd</code> with a path to directory:</h4>
-the absolute path to the working directory right before was <code>/Users/clairegao</code>.<br>
+<h4>1.2 `cd` with a path to directory:</h4>
+the absolute path to the working directory right before was `/Users/clairegao`.<br>
 there is no output. However, the directory is now changed to <code>/Users/clairegao/Downloads</code>.<br>
 there is no error.
 
