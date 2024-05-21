@@ -69,11 +69,13 @@ clairegao@Claires-MacBook-Pro docsearch % find ./technical -name "chapter-11.txt
 ./technical/911report/chapter-11.txt
 ```
 <br>
-the first commands search for files named "reporting_system.txt" under the directory docsearch/technical. And return the directory of the files.
-<br>
-the second commands search for files named "chatper-11.txt" under the directory docsearch/technical. And return the directory of the files. 
-<br>
 
+the first commands search for files named "reporting_system.txt" under the directory `docsearch/technical`. And return the directory of the files.
+<br>
+the second commands search for files named "chatper-11.txt" under the directory `docsearch/technical`. And return the directory of the files. 
+<br>
+<br>
+<br>
 
 Option 2: `-type`
  <br>
