@@ -8,7 +8,7 @@ I use ssh to login to my ieng account Using the code `ssh jig029@ieng6.ucsd.edu`
 
 I then git clone my fork my repository by using the code `git clone git@github.com:Claire6ao/lab7.git`.
 
-![Image](1.png)
+![Image](1.jpg)
 
 
 <h3>step 6</h3>
@@ -17,7 +17,7 @@ To run the test, I first change my directory to lab7 by using the code `cd lab7`
 I then run the test by using the code `bash test.sh`. <br>
 The terminal shows that the test has failed.
 
-![Image](2.png)
+![Image](2.jpg)
 
 
 <h3>step 7</h3>
