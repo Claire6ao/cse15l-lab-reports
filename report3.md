@@ -96,10 +96,10 @@ clairegao@Claires-MacBook-Pro docsearch % find ./technical -type d
 ./technical/911report
 ```
 <br>
-this command finds the directory under the directory docsearch/technical
+this command finds the directory under the directory `docsearch/technical`.
 <br>
 
-Another example is `-type f`, which find the files under the directory
+Another example is `-type f`, which find the files under the directory `docsearch/technical`.
 ```
 clairegao@Claires-MacBook-Pro docsearch % find ./technical -type f -name "*.java"
 ```
@@ -113,7 +113,7 @@ Option 3: `-atime`
  <br>
 this commands find the files that has been accessed with the given amount of period
 
-for example, this command find files in docsearch/technical that was last accessed more than 1 day ago.
+for example, this command find files in `docsearch/technical` that was last accessed more than 1 day ago.
 ```
 clairegao@Claires-MacBook-Pro ~ % find ./technical -atime +1
 ./technical
@@ -149,7 +149,7 @@ clairegao@Claires-MacBook-Pro ~ % find ./technical -atime +1
 ./technical/government/Env_Prot_Agen/atx1-6.txt
 ```
 
-this command find files in docsearch/techcnical that was last accessed less than 1 day ago.
+this command find files in `docsearch/techcnical` that was last accessed less than 1 day ago.
 ```
 clairegao@Claires-MacBook-Pro ~ % find ./technical -atime -1
 ./technical/government/Media/Volunteers_Step_Up.txt
