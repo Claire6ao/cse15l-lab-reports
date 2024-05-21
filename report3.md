@@ -63,49 +63,51 @@ Option 1: `-name`
 this is used to find the files with its name containing the search term.
 
 ```
-clairegao@Claires-MacBook-Pro ~ % find ./Downloads -name "cse12"
-clairegao@Claires-MacBook-Pro ~ % find ./Downloads -name "cse12-sp24-pa5-HashTable-starter-main"
-./Downloads/cse12-sp24-pa5-HashTable-starter-main
+clairegao@Claires-MacBook-Pro docsearch % find ./technical -name "reporting_system.txt"
+./technical/government/About_LSC/reporting_system.txt
+clairegao@Claires-MacBook-Pro docsearch % find ./technical -name "chapter-11.txt"      
+./technical/911report/chapter-11.txt
 ```
 <br>
+the first commands search for files named "reporting_system.txt" under the directory docsearch/technical. And return the directory of the files.
 <br>
-  
+the second commands search for files named "chatper-11.txt" under the directory docsearch/technical. And return the directory of the files. 
+<br>
+
+
 Option 2: `-type`
  <br>
 
 this is used to find the files with the specified type
 
-for example, this command finds the directory in chat-server 
+for example, `-type d` searches for the directory. 
 ```
-clairegao@Claires-MacBook-Pro ~ % find ./chat-server -type d 
-./chat-server
-./chat-server/chathistory
-./chat-server/lib
-./chat-server/.git
-./chat-server/.git/objects
-./chat-server/.git/objects/pack
-./chat-server/.git/objects/info
-./chat-server/.git/info
-./chat-server/.git/logs
-./chat-server/.git/logs/refs
-./chat-server/.git/logs/refs/heads
-./chat-server/.git/logs/refs/remotes
-./chat-server/.git/logs/refs/remotes/origin
-./chat-server/.git/hooks
-./chat-server/.git/refs
-./chat-server/.git/refs/heads
-./chat-server/.git/refs/tags
-./chat-server/.git/refs/remotes
-./chat-server/.git/refs/remotes/origin
+clairegao@Claires-MacBook-Pro docsearch % find ./technical -type d
+./technical
+./technical/government
+./technical/government/About_LSC
+./technical/government/Env_Prot_Agen
+./technical/government/Alcohol_Problems
+./technical/government/Gen_Account_Office
+./technical/government/Post_Rate_Comm
+./technical/government/Media
+./technical/plos
+./technical/biomed
+./technical/911report
 ```
+<br>
+this command finds the directory under the directory docsearch/technical
+<br>
 
-the command finds the file with the name "update.sample" in chat-server
+Another example is `-type f`, which find the files under the directory
 ```
-clairegao@Claires-MacBook-Pro ~ % find ./chat-server -type f -name "update.sample" 
-./chat-server/.git/hooks/update.sample
+clairegao@Claires-MacBook-Pro docsearch % find ./technical -type f -name "*.java"
 ```
  <br>
+ Since there is no java files, the terminal return nothing 
 <br>
+
+
 Option 3: `-atime`
  <br>
 
