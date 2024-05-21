@@ -10,6 +10,7 @@ I then git clone my fork my repository by using the code `git clone git@github.c
 
 ![Image](1.png)
 
+
 <h3>step 6</h3>
 
 To run the test, I first change my directory to lab7 by using the code `cd lab7`. <br>
@@ -17,6 +18,7 @@ I then run the test by using the code `bash test.sh`. <br>
 The terminal shows that the test has failed.
 
 ![Image](2.png)
+
 
 <h3>step 7</h3>
 
@@ -31,9 +33,11 @@ To rerun the test, I type `bash test.sh` in the terminal. And the terminal shows
 
 ![Image](3.png)
 
+
 <h3>step 9</h3>
 
 I then type `git add -A` in the terminal to stage the changes. Then I type `git commit -m "modified listexamples"` to commit the changes I have made. I then type `git push` to push the changes to my github repository. 
 
 
 ![Image](4.png)
+
