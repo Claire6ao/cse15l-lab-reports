@@ -9,8 +9,7 @@ When I ran the test scripts, there is one failure about the test. The expected v
 
 ![Image](falseImp.png)
 
-2. TA's response:
-In your method, you are returning this.chatHistory. This variable is defined by adding user + ": " + message + "\n\n". Look at your symptom. It is saying expecting edward 
-3. After fixing
+2. TA's response: <br>
+In your method, you are returning `this.chatHistory`. This variable is defined by adding `user + ": " + message + "\n\n"`. Look at your symptom. It is saying expected `joe: hi`, but was `user: hi`. You can take at a look at which variable is different in the expected and actual output. And then try to see if there is anything wrong within the implementation of the variable. 
 
-4. 
+3. After fixing
