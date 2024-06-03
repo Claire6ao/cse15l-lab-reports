@@ -5,7 +5,8 @@
 
 ![Image](ft.png) 
 ![Image](test.png)
-When I ran the test scripts, there is one failure about the test. The expected value dismatched the actual output. I doubled checked the testing method, it should be correct, so I think the failure-inducing input should be my handleRequest Method. Here is the screen shot of my code.
+![Image](bash.png)
+When I ran the test scripts using bash, there is one failure about the test. The expected value dismatched the actual output. I doubled checked the testing method and the bash script, they should be correct, so I think the failure-inducing input should be my handleRequest Method. Here is the screen shot of my code.
 
 ![Image](falseImp.png)
 
@@ -13,3 +14,7 @@ When I ran the test scripts, there is one failure about the test. The expected v
 In your method, you are returning `this.chatHistory`. This variable is defined by adding `user + ": " + message + "\n\n"`. Look at your symptom. It is saying expected `joe: hi`, but was `user: hi`. You can take at a look at which variable is different in the expected and actual output. And then try to see if there is anything wrong within the implementation of the variable. 
 
 3. After fixing
+![Image](sucTest.png)
+![Image](fixing.png)
+Thank you so much! I realize the implementation of the variable `user` was wrong. It should be the second String in the arraylist instead of the first String. Therefore, the index on line 18 should be one instead of zero. 
+
